@@ -9,68 +9,68 @@ function interval(){
 	switch(num){
 		case 1:
 		setTimeout(function(){
-		$('livereplymessage').value='威望';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='威望';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 2:
 		setTimeout(function(){
-		$('livereplymessage').value='继续';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='继续';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 3:
 		setTimeout(function(){
-		$('livereplymessage').value='真棒';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='真棒';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 4:
 		setTimeout(function(){
-		$('livereplymessage').value='哈哈';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='哈哈';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 5:
 		setTimeout(function(){
-		$('livereplymessage').value='再来';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='再来';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 6:
 		setTimeout(function(){
-		$('livereplymessage').value='大红楼';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='大红楼';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 7:
 		setTimeout(function(){
-		$('livereplymessage').value='水水';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='水水';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 8:
 		setTimeout(function(){
-		$('livereplymessage').value='看看';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='看看';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 9:
 		setTimeout(function(){
-		$('livereplymessage').value='不纯表';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='不纯表';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 		case 10:
 		setTimeout(function(){
-		$('livereplymessage').value='吃饭';
-		$('livereplysubmit').click();
+		document.getElementById('livereplymessage').value='吃饭';
+		document.getElementById('livereplysubmit').click();
 	}, TimeInterval);
 		break;
 	}
 }
 
 setInterval(function(){
-	$('livereplymessage').style.color='black';
+	document.getElementById('livereplymessage').style.color='black';
 	interval();
 }, 7700);
